@@ -15,8 +15,8 @@ sont à l'abri.
 
 Chaque altitude correspond à un terrain d'une unité de surface.
 
-Sortie
-La sortie est un unique entier qui est la surface d'abri disponible.
+Sortie :
+Un entier qui est la surface d'abri disponible.
 
 Contraintes
 1 ≤ n ≤ 100 000
