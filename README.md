@@ -7,29 +7,35 @@ Des vents violents venus de l'ouest emporteront tout ce qui sera exposé, mais i
 Prolosaures seront à l'abri de la catastrophe imminente.
 Votre but est de déterminer la surface totale protégée par les montagnes.
 
-Entrée
-La première ligne est un entier n, la largeur du continent.
-La ligne suivante contient n entiers h , …, h séparés par des espaces donnant les altitudes du terrain, d'ouest en est.
+Entrée :
+
+- La première ligne est un entier n, la largeur du continent.
+- La ligne suivante contient n entiers h , …, h séparés par des espaces donnant les altitudes du terrain, d'ouest en est.
 Le vent arrive de la gauche (de l'ouest) et lorsqu'il rencontre une montagne, toutes les terres qui sont plus à droite et de hauteurs inférieures à celle-ci
 sont à l'abri.
 
 Chaque altitude correspond à un terrain d'une unité de surface.
 
-Sortie :
-Un entier qui est la surface d'abri disponible.
+Sortie : 
 
-Contraintes
-1 ≤ n ≤ 100 000
-0 ≤ h ≤ 100 000
+- Un entier qui est la surface d'abri disponible.
 
-Contraintes d'exécution
-Utilisation mémoire maximum
-2000 kilo-octets
-Temps d'exécution maximum
-500 millisecondes
+Contraintes :
+
+- 1 ≤ n ≤ 100 000
+- 0 ≤ h ≤ 100 000
+
+Contraintes d'exécution : 
+
+- Utilisation mémoire maximum
+  2000 kilo-octets
+- Temps d'exécution maximum
+  500 millisecondes
+
+# Résolution de l'énoncé 
 
 Pour tester mon script PHP
 
-entrez dans le repertoire src et modifier l'entrée via le fichier surface.txt
+entrez dans le repertoire `src` et modifier l'entrée via le fichier `surface.txt`
 
-ensuite taper la commande : php Surface.php pour lancer le script et afficher la sortie
+ensuite taper la commande : `php Surface.php` pour lancer le script et afficher la sortie
